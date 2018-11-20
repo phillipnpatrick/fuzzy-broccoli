@@ -5,6 +5,37 @@ body{
   color: #34495e;
 }
 
+.left { float: left; }
+.right { float: right; }
+nav {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: midnightblue;
+  font-family: 'Amatic SC',cursive,Futura, Verdana, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+nav a {
+  color: white;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+  padding-right: 10px;
+}
+nav a:link {
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+
+.content{
+  padding-top: 60px;
+}
+
 .container {
   margin: 0 auto;
   width: 80%
